@@ -1,0 +1,36 @@
+# -------------------------------
+# CodeIgniter 4 .gitignore
+# -------------------------------
+
+# Environment file (sensitive)
+.env
+
+# Composer vendor directory
+/vendor/
+
+# Writable directory (sessions, logs, cache, uploads, temp files)
+writable/*
+!writable/index.html
+
+# PHPStorm / IntelliJ IDEA
+.idea/
+
+# VSCode
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm)
+node_modules/
+
+# Composer PHAR
+composer.phar
+
+# PHPUnit cache
+.phpunit.cache/
+
+# User uploads (if you store files inside public/uploads)
+public/uploads/*
+!public/uploads/index.html
